@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import About from '../About/About';
+import Service from '../Service/Service';
 
 const Home = () => {
+    const [services, setServices] = useState([]);
+    useEffect(() => {
+        fetch('./services.json')
+            .then(res => res.json())
+            .then(data => setServices(data))
+    }, [])
     return (
         <>
             <div className='bg-green-50'>
@@ -18,6 +25,17 @@ const Home = () => {
                     </div>
                 </div>
                 <About />
+                <div className='container mx-auto'>
+
+                    <div className='grid grid-cols-4 gap-4'>
+                        {
+                            services.slice(0, 4).map(service => <Service
+                                key={service.id}
+                                service={service}
+                            ></Service>)
+                        }
+                    </div>
+                </div>
             </div>
         </>
     );

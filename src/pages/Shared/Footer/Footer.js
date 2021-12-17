@@ -51,8 +51,8 @@ const Footer = () => {
                             <input className='outline-none h-full' type="text" />
                             <div className='bg-green-500 h-full absolute right-0 p-4'>
                                 <button className=''>
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-8 strock-current text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-8 strock-current text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                                     </svg>
                                 </button>
                             </div>

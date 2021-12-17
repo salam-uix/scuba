@@ -17,8 +17,8 @@ const About = () => {
                                 We guarantee your safety underwater so you can relax and enjoy the underwater world. Time to make your dream come true!</p>
                             <NavLink to="/about" className='text-xl font-semibold text-gray-800 mt-5 item-left ease-in-out duration-300 tracking-wide flex uppercase'>
                                 READ MORE
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                 </svg>
                             </NavLink>
                         </div>
