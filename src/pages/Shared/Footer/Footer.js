@@ -47,11 +47,11 @@ const Footer = () => {
                     <div>
                         <h3 className='uppercase text-white py-4 font-bold'>EMAIL UPDATES</h3>
                         <p className='text-white'>Get 10% off eLearning online! Sign up and get the latest updates, offers and more.</p>
-                        <div className='flex items-center bg-white rounded-full relative px-8 overflow-hidden h-12 mt-6'>
-                            <input className='outline-none h-full' type="text" />
-                            <div className='bg-green-500 h-full absolute right-0 p-4'>
-                                <button className=''>
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-8 strock-current text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <div className='flex items-center border-white border-2 rounded-full relative px-8 overflow-hidden h-12 mt-6'>
+                            <input className='bg-transparent outline-none h-full' type="text" placeholder='Your email' />
+                            <div className='bg-white h-full absolute right-0 p-4'>
+                                <button className='flex items-center justify-center'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-8 strock-current text-cyan-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                                     </svg>
                                 </button>
