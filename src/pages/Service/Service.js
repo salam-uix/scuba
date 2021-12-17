@@ -8,7 +8,7 @@ const service = (props) => {
             <div className="max-w-sm rounded overflow-hidden shadow-lg text-center">
                 <img className="w-full" src={img} alt="Sunset in the mountains" />
                 <div className="px-6 py-4">
-                    <div className="font-bold text-xl mb-2 h-20">
+                    <div className="font-bold text-xl mb-2 h-16">
                         {name}
                     </div>
                     <p className="text-gray-800 text-lg font-semibold">

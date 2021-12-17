@@ -1,0 +1,5 @@
+.gift-container{
+    /* background-image: url('https://i.ibb.co/tmSSdXT/bg5.jpg'); */
+    background-image: linear-gradient(rgba(6, 6, 49, 0.5), rgba(26, 26, 24, 0.5)),
+                  url(https://i.ibb.co/tmSSdXT/bg5.jpg);
+}

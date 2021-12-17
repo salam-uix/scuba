@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './pages/About/About';
 import ContactUs from './pages/ContactUs/ContactUs';
+import GiftVoucher from './pages/GiftVoucher/GiftVoucher';
 import Home from './pages/Home/Home';
 import NotFound from './pages/NotFound/NotFound';
 import Services from './pages/Services/Services';
@@ -19,6 +20,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/gift" element={<GiftVoucher />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

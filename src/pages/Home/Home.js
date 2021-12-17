@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import About from '../About/About';
 import ContactUs from '../ContactUs/ContactUs';
+import GiftVoucher from '../GiftVoucher/GiftVoucher';
 import Service from '../Service/Service';
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
                     </div>
                 </div>
                 <About />
+                <GiftVoucher />
                 <div className='container mx-auto text-center'>
                     <h2 className='text-4xl text-center font-bold tracking-widest'>CHECK OUR COURSES</h2>
                     <p className='text-lg text-center w-1/2 mx-auto py-8'>Experience incredible emotions discovering new amazing underwater worlds with our diving school.</p>
