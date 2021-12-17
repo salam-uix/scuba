@@ -1,10 +1,18 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Live site link [Scuba](https://scuba-training.netlify.app/).
 
-## Available Scripts
+## React Router
 
-In the project directory, you can run:
+As per version 6 I and our team finalized this project. So viewer can the real power of React Router.
+
+## React tailwind
+
+As css framework we use tailwind css. Its a latest version of tailwind.
+
+## Services JSON
+
+To load services project team create some fake data to visulized its services in home page and services page.
 
 ### `npm start`
 

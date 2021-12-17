@@ -5,6 +5,7 @@ import ContactUs from './pages/ContactUs/ContactUs';
 import Home from './pages/Home/Home';
 import NotFound from './pages/NotFound/NotFound';
 import Services from './pages/Services/Services';
+import Footer from './pages/Shared/Footer/Footer';
 import Navgation from './pages/Shared/Navigation/Navgation';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contact" element={<ContactUs />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
